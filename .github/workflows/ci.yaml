@@ -16,13 +16,13 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: cd rappi
+    - run: cd server
     - name: Use Node.js 14.x
       uses: actions/setup-node@v3
       with:
         node-version: '14.x'
         cache: 'npm'
-        cache-dependency-path: rappi/package-lock.json 
+        cache-dependency-path: api-rest-rappi/package-lock.json 
     - run: npm ci
     - run: npm run build --if-present
     - run: npm test
