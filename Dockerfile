@@ -1,8 +1,8 @@
 FROM node:12.22.9-alpine
 
-WORKDIR /server
+WORKDIR /server/api-rest-rappi/package.json
 
-COPY ./server/api-rest-rappi
+COPY package.json ./
 
 RUN npm install
 
