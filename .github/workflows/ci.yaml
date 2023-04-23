@@ -21,7 +21,7 @@ jobs:
       with:
         node-version: '14.x'
         cache: 'npm'
-        cache-dependency-path: server/api-rest-rappi
+        cache-dependency-path: server/api-rest-rappi/package.json
     - run: npm ci
     - run: npm run
     - run: npm test
