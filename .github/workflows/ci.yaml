@@ -23,5 +23,5 @@ jobs:
         cache: 'npm'
         cache-dependency-path: server/api-rest-rappi/package.json 
     - run: npm ci
-    - run: npm run build --if-present
+    - run: npm run
     - run: npm test
