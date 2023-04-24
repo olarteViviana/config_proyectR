@@ -25,7 +25,7 @@ jobs:
       with:
         node-version: '14.x'
         cache: 'npm'
-        cache-dependency-path: package.json
+        cache-dependency-path: server/
     - run: npm ci
     - run: npm run
     - run: npm test
