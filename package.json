@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/api-rest-rappi/server.js",
   "scripts": {
-    "test": "node ./server/test_db.js",
+    "test": "node ./server/api-rest-rappi/test_db.js",
     "start": "node server/api-rest-rappi/server.js"
   },
   "author": "Sebas",
